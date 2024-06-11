@@ -3,7 +3,7 @@
 
 ![Chat App Screenshot](path_to_your_screenshot.png)
 
-A robust chat application built with Flutter, featuring login and sign-up screens connected to Firebase for authentication. This project includes email and password authentication, along with first name and last name fields, and comprehensive field validation.
+A robust chat application built with Flutter, featuring login and sign-up screens connected to Firebase for authentication. This project includes email and password authentication, along with comprehensive field validation.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ A robust chat application built with Flutter, featuring login and sign-up screen
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the App](#running-the-app)
-  - [Setting Dart as the Primary Language](#setting-dart-as-the-primary-language)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -24,8 +23,7 @@ A robust chat application built with Flutter, featuring login and sign-up screen
 - Firebase authentication
 - Login and sign-up screens
 - Email and password authentication
-- First name and last name fields
-- Field validation for empty inputs
+
 
 ## Getting Started
 
@@ -71,17 +69,6 @@ Run the following command to start the app in debug mode:
 flutter run
 ```
 
-### Setting Dart as the Primary Language
-
-1. Create a `.gitattributes` file in the root of your repository.
-2. Add the following line to the `.gitattributes` file:
-
-    ```text
-    *.dart linguist-language=Dart
-    ```
-
-This will help GitHub recognize Dart as the primary language of your repository.
-
 ## Usage
 
 - **Login Screen**: Enter your email and password to log in.
@@ -90,10 +77,13 @@ This will help GitHub recognize Dart as the primary language of your repository.
 
 ## Screenshots
 
-![Login Screen](path_to_login_screenshot.png)
+![Login Screen](screenShots/screen%20(2).png)
 *Login Screen*
 
-![Sign-Up Screen](path_to_signup_screenshot.png)
+![Sign-Up Screen](screenShots/screen%20(1).png)
+*Sign-Up Screen*
+
+![Field Validation](screenShots/screen%20(3).png)
 *Sign-Up Screen*
 
 ## Contributing
