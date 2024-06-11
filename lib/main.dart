@@ -1,9 +1,9 @@
-import 'package:chatapp/Ui/Screens/chatPage.dart';
-import 'package:chatapp/Ui/Screens/loginPage.dart';
+import 'package:chatapp/Ui/Screens/chat_page.dart';
+import 'package:chatapp/Ui/Screens/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'Ui/Screens/registerPage.dart';
+import 'Ui/Screens/register_page.dart';
 
 
 void main()async {

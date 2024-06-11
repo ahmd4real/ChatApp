@@ -1,3 +1,4 @@
+import 'package:chatapp/constants.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
@@ -12,13 +13,13 @@ class CustomButton extends StatelessWidget {
         onTap: onTap,
         child: Container(
           height: 60,
-          width: double.infinity,
+          width: MediaQuery.of(context).size.width * 0.75,
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8), color: Colors.green),
+              borderRadius: BorderRadius.circular(20), color: kButtonsColor),
           child: Center(
               child: Text(
             '$text',
-            style: const TextStyle(color: Color.fromARGB(239, 242, 242, 243)),
+            style: const TextStyle(color: Color.fromARGB(239, 242, 242, 243),fontSize: 20),
           )),
         ),
       ),

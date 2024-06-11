@@ -1,6 +1,6 @@
-import 'package:chatapp/Ui/Widgets/chatBubble.dart';
+import 'package:chatapp/Ui/Widgets/chat_bubble.dart';
 import 'package:chatapp/helper/constants.dart';
-import 'package:chatapp/models/messageModel.dart';
+import 'package:chatapp/models/message_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -45,7 +45,7 @@ class _ChatPageState extends State<ChatPage> {
                     ],
                   ),
                 ),
-                backgroundColor: kBlack,
+                
                 body: Column(
                   children: [
                     Expanded(
@@ -113,7 +113,7 @@ class _ChatPageState extends State<ChatPage> {
                         ),
                       ),
                     )
-                    //CustomTextFormField(hintText: 'send',)
+                   
                   ],
                 ));
           } else {

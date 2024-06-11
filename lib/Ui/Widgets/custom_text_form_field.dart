@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class CustomTextFormField extends StatelessWidget {
   CustomTextFormField(
@@ -9,10 +10,11 @@ class CustomTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+      padding:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.08, vertical: 16),
       child: TextFormField(
+        
         obscureText: hidden,
-        style: const TextStyle(color: Colors.white),
+        
         validator: (value) {
           if (value!.isEmpty) {
             return 'Field is Required';
@@ -21,20 +23,17 @@ class CustomTextFormField extends StatelessWidget {
         },
         onChanged: onChanged,
         decoration: InputDecoration(
-          suffixIcon: InkWell(
-            child: const Icon(Icons.remove_red_eye),
-            onTap: () {
-              hidden = false;
-            },
-          ),
           hintText: hintText,
-          hintStyle: const TextStyle(color: Colors.white),
-          border: const OutlineInputBorder(),
+          border: const OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(12)),
+          ),
           enabledBorder: const OutlineInputBorder(
-              borderSide: BorderSide(color: Colors.white)),
+            borderRadius :BorderRadius.all(Radius.circular(12)),
+              borderSide: BorderSide(color: Colors.grey)),
           focusedBorder: const OutlineInputBorder(
+            borderRadius :BorderRadius.all(Radius.circular(12)),
               borderSide:
-                  BorderSide(color: Color.fromARGB(255, 163, 255, 195))),
+                  BorderSide(color: Colors.deepPurple)),
         ),
       ),
     );

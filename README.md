@@ -112,10 +112,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Ahmed Ali - [ahmedal011605@gmail.com](mailto:ahmedal011605@gmail.com)
+Ahmed Alaa - [ahmedal011605@gmail.com](mailto:ahmedal011605@gmail.com)
 
 Project Link: [https://github.com/ahmd4real/Chat_App](https://github.com/ahmd4real/Chat_App)
 
----
-
-Replace the placeholders with your actual data, such as paths to screenshots and your specific Firebase setup instructions. This template will provide a clear and professional README for your Flutter chat app project.
