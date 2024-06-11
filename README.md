@@ -1,9 +1,7 @@
 
 # Chat App
 
-![Chat App Screenshot](path_to_your_screenshot.png)
-
-A robust chat application built with Flutter, featuring login and sign-up screens connected to Firebase for authentication. This project includes email and password authentication, along with comprehensive field validation.
+A simple chat application built with Flutter, featuring login and sign-up screens connected to Firebase for authentication. This project includes email and password authentication, along with comprehensive field validation.
 
 ## Table of Contents
 
